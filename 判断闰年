@@ -1,0 +1,7 @@
+一个年份是闰年的条件是：年份或者能被4整除但不能被100整除；或者能被400整除。
+#include<stdio.h>
+int main(){
+int year;
+scanf("%d",&year);
+printf("%d",(year%4==0&&year%100!=0)||(year%400==0));
+}
